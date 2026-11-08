@@ -1,0 +1,19 @@
+[general]
+name=Walkably
+qgisMinimumVersion=3.22
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Add Walkably walking scores for European cities to your QGIS project in one click.
+about=Adds Walkably walking scores to your project: one point per city for 528 cities in 31 countries, coloured by the typical walking score, and free sample cell maps of Hamburg and Barcelona (about 95 m six-sided cells, coloured by score). Data is the free Walkably GIS sample under the Open Database License (ODbL) 1.0. Nothing is loaded when QGIS starts; files are downloaded once, when you click, from data.walkably.org, checked against their checksums and kept in your QGIS profile folder. The credit line is attached to every layer. Full data and more: https://walkably.org/data/
+version=0.1.0
+author=Walkably
+email=hello@walkably.org
+homepage=https://walkably.org/data/
+tracker=https://github.com/raian-pollock/walkably-qgis/issues
+repository=https://github.com/raian-pollock/walkably-qgis
+tags=walkability,walking,urban planning,cities,europe,openstreetmap,accessibility
+category=Web
+icon=icon.png
+experimental=False
+deprecated=False
+changelog=0.1.0 First release: cities layer for Europe, sample cells for Hamburg and Barcelona.
